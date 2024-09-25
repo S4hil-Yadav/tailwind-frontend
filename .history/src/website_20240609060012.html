@@ -1,0 +1,532 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    />
+
+    <link rel="icon" type="image/x-icon" href="/src/img/favicon.png" />
+
+    <title>Borgor Menu</title>
+
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body
+    class="bg-gradient-to-r from-slate-900 to-slate-700 font-exo tracking-wider text-white"
+  >
+    <!-- Navbar -->
+    <nav
+      id="nav-bar"
+      class="sticky top-0 border-b bg-gradient-to-r from-slate-950 from-10% via-slate-800 via-40% to-slate-950 to-100% py-5 pl-10"
+    >
+      <div class="sticky flex">
+        <!-- BURGER -->
+        <label
+          class="flex-auto cursor-default text-3xl font-extrabold uppercase tracking-wider nv:flex-none"
+        >
+          bor<span class="text-orange-300">gor</span>
+        </label>
+        <!-- links -->
+        <div
+          id="nav-menu"
+          class="fixed left-0 top-0 hidden h-96 w-full flex-auto content-center justify-center border-b border-orange-200 bg-indigo-950 py-10 text-center nv:static nv:flex nv:h-auto nv:border-none nv:bg-transparent nv:py-0"
+        >
+          <div
+            class="mx-32 grid items-center justify-center text-2xl nv:flex nv:flex-auto nv:text-xl"
+          >
+            <a
+              href="#"
+              class="nav-link basis-40 duration-200 ease-in hover:text-orange-300"
+              >Home</a
+            >
+            <a
+              href="#"
+              class="nav-link basis-40 duration-200 ease-in hover:text-orange-300"
+              >About</a
+            >
+            <a
+              class="nav-link basis-40 cursor-default text-orange-500 duration-200 ease-in hover:text-orange-300"
+              >Menu</a
+            >
+            <a
+              href="#"
+              class="nav-link basis-40 duration-200 ease-in hover:text-orange-300"
+              >Review</a
+            >
+            <a
+              href="#"
+              class="nav-link basis-40 duration-200 ease-in hover:text-orange-300"
+              >Contact</a
+            >
+
+            <i
+              id="close-menu"
+              class="ri-close-line absolute right-4 top-4 text-2xl duration-200 ease-in hover:cursor-pointer hover:text-red-500 nv:hidden"
+              style="font-size: 40px"
+            >
+            </i>
+          </div>
+        </div>
+        <!-- icons -->
+        <div class="space-x-2 pr-5 text-3xl">
+          <i
+            class="ri-moon-line duration-200 ease-in hover:cursor-pointer hover:text-orange-300"
+          ></i>
+          <i
+            id="hamburger"
+            class="ri-menu-2-line inline duration-200 ease-in hover:cursor-pointer hover:text-orange-300 nv:hidden"
+          ></i>
+        </div>
+      </div>
+    </nav>
+
+    <div id="start"></div>
+
+    <div class="border-y border-white py-6">
+      <h1 class="my-20 cursor-default text-center text-4xl font-black">
+        Our Menu
+      </h1>
+
+      <div
+        class="grid-col-1 mx-[10%] grid gap-8 mn2:grid-cols-2 mn3:grid-cols-3"
+      >
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex rounded-lg bg-gray-900">
+          <div class="h-52 flex-none basis-2/5">
+            <img
+              class="aspect-square h-52 rounded-l-lg object-cover"
+              src="/src/img/fast-food/(fast-food)-burger.jpg"
+            />
+          </div>
+          <div class="grid flex-auto px-3 text-sm">
+            <div class="flex flex-wrap items-center py-3">
+              <div class="flex-auto text-xl font-semibold">Borgor</div>
+              <div class="flex-none text-2xl font-bold text-slate-300">
+                ₹150
+              </div>
+            </div>
+            <div
+              class="my-auto border-y border-slate-400 py-2 text-justify text-xs text-slate-300"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              amet eveniet inventore distinctio.
+            </div>
+            <div class="flex flex-wrap gap-2 py-5 text-sm">
+              <button
+                class="rounded-full border border-white bg-slate-950 px-2 py-1 text-xs"
+              >
+                Order now
+              </button>
+              <button
+                class="rounded-full border border-slate-400 px-2 py-1 text-xs text-slate-200"
+              >
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/src/script.js"></script>
+  </body>
+</html>
